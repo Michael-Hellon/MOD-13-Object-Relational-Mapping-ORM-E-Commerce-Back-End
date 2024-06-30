@@ -7,13 +7,13 @@ const ProductTag = require('./ProductTag');
 // Referenced One-to-one, One-to-Many exercise
 // Products belongsTo Category
 Product.hasOne(Category, {
-  foreignKey: 'product_id',
-  onDelete: 'CASCADE',
+  foreignKey: 'category_id',
+
 });
 
 // Categories have many Products
 Category.belongsTo(Product, {
-  foreignKey: 'product_id',
+  foreignKey: 'category_id',
 });
 
 // Referenced https://sequelize.org/docs/v6/core-concepts/assocs/#foobelongstomanybar--through-baz-
