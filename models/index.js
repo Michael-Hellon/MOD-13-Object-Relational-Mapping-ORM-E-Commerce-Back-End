@@ -6,7 +6,7 @@ const ProductTag = require('./ProductTag');
 
 // Referenced One-to-one, One-to-Many exercise
 // Products belongsTo Category
-Product.hasOne(Category, {
+Product.belongsTo(Category, {
   foreignKey: 'category_id',
 });
 

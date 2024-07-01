@@ -18,6 +18,3 @@ sequelize.sync({ force: true }).then(() => {
 app.listen(PORT, () => 
   console.log(`App listening at http://localhost:${PORT}/api/categories/`));
 });
-
-
-
