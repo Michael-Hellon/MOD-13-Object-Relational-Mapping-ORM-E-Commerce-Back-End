@@ -49,7 +49,14 @@ This project can be found at <https://github.com/Michael-Hellon/MOD-13-Object-Re
 
 You can email me with any questions at <mwhellon@yahoo.com>
 
-![screenshot](/assets/images/screenshot.png)
+![screenshot](/assets/images/Screenshot_01_categories.png)
+
+![screenshot](/assets/images/Screenshot_GET_all%20Categories.png)
+![screenshot](/assets/images/Screenshot_GET_categories_by_ID.png)
+![screenshot](/assets/images/Screenshot_CREATE_Categories.png)
+![screenshot](/assets/images/Screenshot_UPDATE_Categories.png)
+![screenshot](/assets/images/Screenshot_DELETE_Categories.png)
+
 
 ## Credits
 
